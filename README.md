@@ -1,0 +1,13 @@
+# Connect with me
+
+[🌐 peterlee.io](https://peterlee.io)
+
+If you've made it this far, feel free to reach out to me at [peterlee.code@gmail.com](mailto:peterlee.code@gmail.com)
+
+- [LinkedIn](https://linkedin.com/in/peterlee123hi)
+- [Facebook](https://www.facebook.com/peterlee123hi)
+- [X](https://x.com/peterlee123hi)
+- [Instagram](https://www.instagram.com/peterlee123hi/)
+- [Discord](http://discordapp.com/users/peterlee123hi)
+- [Github](https://github.com/peterlee123hi)
+- [TikTok](https://www.tiktok.com/@peterlee123hi)
