@@ -9,4 +9,3 @@ If you've made it this far, feel free to reach out to me at [peterlee.code@gmail
 - [Facebook](https://www.facebook.com/peterlee123hi)
 - [Instagram](https://www.instagram.com/peterlee123hi/)
 - [Discord](http://discordapp.com/users/peterlee123hi)
-- [X](https://x.com/peterlee123hi)
