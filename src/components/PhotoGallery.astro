@@ -138,7 +138,7 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
         gap: 16px;
     }
 
-    .gallery-img-container {
+    .gallery-container {
         position: relative;
         overflow: hidden;
     }
@@ -149,12 +149,12 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
             height: auto !important;
         }
 
-        .gallery-img-container {
+        .gallery-container {
             height: auto !important;
             flex: none !important;
         }
 
-        .gallery-img-container img {
+        .gallery-container img {
             object-fit: contain !important;
         }
     }
@@ -166,7 +166,7 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
             <div class="gallery-row" style={`height: ${row[0].rowHeight}px`}>
                 {row.map((photo) => (
                     <div
-                        class="gallery-img-container"
+                        class="gallery-container"
                         style={`flex: ${photo.flex}`}
                     >
                         <img
