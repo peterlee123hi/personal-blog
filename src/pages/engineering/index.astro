@@ -13,23 +13,29 @@ const posts = (await getCollection("engineering")).sort(
 <!doctype html>
 <html lang="en">
     <head>
-        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    </head>
-    <body>
-        <main>
-            <NavBar />
-            <section>
-                {
-                    posts.map((post) => (
-                        <div>
-                            <a href={`/engineering/${post.id}/`}>
-                                <h4>{post.data.title}</h4>
-                                <FormattedDate date={post.data.pubDate} />
-                            </a>
-                        </div>
-                    ))
-                }
-            </section>
-        </main>
-    </body>
+		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+		<style>
+			.description {
+				margin: 0;
+			}
+		</style>
+	</head>
+	<body>
+		<main>
+			<NavBar />
+			<section>
+				{
+					posts.map((post) => (
+						<div>
+							<a href={`/engineering/${post.id}/`}>
+								<h4>{post.data.title}</h4>
+								<p class="description">{post.data.description}</p>
+								<FormattedDate date={post.data.pubDate} />
+							</a>
+						</div>
+					))
+				}
+			</section>
+		</main>
+	</body>
 </html>
