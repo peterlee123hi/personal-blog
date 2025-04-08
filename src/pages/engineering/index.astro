@@ -1,0 +1,35 @@
+---
+import { getCollection } from "astro:content";
+import { SITE_TITLE, SITE_DESCRIPTION } from "../../consts";
+import BaseHead from "../../components/BaseHead.astro";
+import FormattedDate from "../../components/FormattedDate.astro";
+import NavBar from "../../components/NavBar.astro";
+
+const posts = (await getCollection("engineering")).sort(
+    (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+---
+
+<!doctype html>
+<html lang="en">
+    <head>
+        <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    </head>
+    <body>
+        <main>
+            <NavBar />
+            <section>
+                {
+                    posts.map((post) => (
+                        <div>
+                            <a href={`/engineering/${post.id}/`}>
+                                <h4>{post.data.title}</h4>
+                                <FormattedDate date={post.data.pubDate} />
+                            </a>
+                        </div>
+                    ))
+                }
+            </section>
+        </main>
+    </body>
+</html>

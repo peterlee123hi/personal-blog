@@ -1,6 +1,8 @@
 ---
-import BaseHead from '../components/BaseHead.astro';
 import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
+import BaseHead from '../components/BaseHead.astro';
+import NavBar from '../components/NavBar.astro';
+import PhotoGallery from '../components/PhotoGallery.astro';
 ---
 
 <!doctype html>
@@ -10,13 +12,13 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 	</head>
 	<body>
 		<main>
-			<h3>Peter Lee</h3>
+			<NavBar />
 			<p>
 				🌴 time spent in nature, short walks on the beach, drifting with the tides
 				<br>
 				🎓 studied at uc berkeley '19, working at google, aspiring founder in mlops
 				<br>
-				🏛️ centrism, normcore, stoicism, rationalism
+				🏛️ centrist, normcore, rational
 			</p>
 			<p>
 				<a href="https://linkedin.com/in/peterlee123hi/" target="_blank">LinkedIn</a>
@@ -31,6 +33,7 @@ import { SITE_TITLE, SITE_DESCRIPTION } from '../consts';
 				<br>
 				<a href="mailto:peterlee.code@gmail.com">Email</a>
 			</p>
+			<PhotoGallery />
 		</main>
 	</body>
 </html>

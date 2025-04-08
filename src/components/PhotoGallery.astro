@@ -1,0 +1,232 @@
+---
+import { CONTAINER_WIDTH } from "../consts";
+import LittleIsland from "../assets/little-island.jpg?url";
+import Chicago from "../assets/chicago.jpg?url";
+import Grove from "../assets/grove.jpg?url";
+import Pier from "../assets/pier.jpg?url";
+import EvolutionOfMan from "../assets/evolution-of-man.jpg?url";
+import Tianjin from "../assets/tianjin.jpg?url";
+import Cancun from "../assets/cancun.jpg?url";
+import Pacific from "../assets/pacific.jpg?url";
+import Bridge from "../assets/bridge.jpg?url";
+import MountainView from "../assets/mountain-view.jpg?url";
+import Roman from "../assets/roman.jpg?url";
+import Neighbor from "../assets/neighbor.jpg?url";
+import OceanView from "../assets/ocean-view.jpg?url";
+import Arizona from "../assets/arizona.jpg?url";
+import Wedding from "../assets/wedding.jpg?url";
+import Ying from "../assets/ying.jpg?url";
+import Stanford from "../assets/stanford.jpg?url";
+import Guitar from "../assets/guitar.jpg?url";
+import Google from "../assets/google.jpg?url";
+import Matcha from "../assets/matcha.jpg?url";
+
+const photos = [
+    {
+        src: LittleIsland,
+        width: 4080,
+        height: 3072,
+        alt: "Little Island",
+    },
+    {
+        src: Chicago,
+        width: 4080,
+        height: 3072,
+        alt: "Chicago",
+    },
+    {
+        src: Grove,
+        width: 4080,
+        height: 3072,
+        alt: "Grove",
+    },
+    {
+        src: Pier,
+        width: 1920,
+        height: 924,
+        alt: "Pier",
+    },
+    {
+        src: EvolutionOfMan,
+        width: 3072,
+        height: 4080,
+        alt: "Evolution of Man",
+    },
+    {
+        src: Tianjin,
+        width: 4080,
+        height: 3072,
+        alt: "Tianjin",
+    },
+    {
+        src: Cancun,
+        width: 2040,
+        height: 1536,
+        alt: "Cancun",
+    },
+    {
+        src: Pacific,
+        width: 1024,
+        height: 768,
+        alt: "Pacific",
+    },
+    {
+        src: Bridge,
+        width: 4080,
+        height: 3072,
+        alt: "Bridge",
+    },
+    {
+        src: MountainView,
+        width: 4080,
+        height: 3072,
+        alt: "Mountain View",
+    },
+    {
+        src: Roman,
+        width: 3072,
+        height: 4080,
+        alt: "Roman",
+    },
+    {
+        src: Neighbor,
+        width: 3072,
+        height: 4080,
+        alt: "Neighbor",
+    },
+    {
+        src: OceanView,
+        width: 4080,
+        height: 3072,
+        alt: "Ocean View",
+    },
+    {
+        src: Arizona,
+        width: 4080,
+        height: 3072,
+        alt: "Arizona",
+    },
+    {
+        src: Wedding,
+        width: 4080,
+        height: 3072,
+        alt: "Wedding",
+    },
+    {
+        src: Ying,
+        width: 2048,
+        height: 1536,
+        alt: "Ying",
+    },
+    {
+        src: Stanford,
+        width: 4032,
+        height: 3024,
+        alt: "Stanford",
+    },
+    {
+        src: Guitar,
+        width: 1080,
+        height: 1920,
+        alt: "Guitar",
+    },
+    {
+        src: Google,
+        width: 1080,
+        height: 1160,
+        alt: "Google",
+    },
+    {
+        src: Matcha,
+        width: 3072,
+        height: 4080,
+        alt: "Matcha",
+    },
+];
+
+// For desktop
+const itemsPerRow = 2;
+const rows = [];
+
+for (let i = 0; i < photos.length; i += itemsPerRow) {
+    const row = photos.slice(i, i + itemsPerRow);
+
+    const totalAspectRatio = row.reduce(
+        (sum, p) => sum + p.width / p.height,
+        0,
+    );
+
+    const layout = row.map((p) => ({
+        ...p,
+        flex: p.width / p.height / totalAspectRatio,
+        rowHeight: CONTAINER_WIDTH / totalAspectRatio,
+    }));
+
+    rows.push(layout);
+}
+---
+
+<style>
+    .gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+
+    .gallery-row {
+        display: flex;
+        width: 100%;
+        gap: 16px;
+    }
+
+    .gallery-img-container {
+        position: relative;
+        overflow: hidden;
+    }
+
+    .gallery-img {
+        width: 100%;
+        height: 100%;
+        display: block;
+        object-fit: cover;
+    }
+
+    @media (max-width: 800px) {
+        .gallery-row {
+            flex-direction: column;
+            height: auto !important; /* Ensure height is removed */
+        }
+
+        .gallery-img-container {
+            height: auto !important;
+            flex: none !important;
+        }
+
+        .gallery-img {
+            width: 100%;
+            height: auto;
+            object-fit: contain;
+        }
+    }
+</style>
+
+<div class="gallery">
+    {
+        rows.map((row) => (
+            <div class="gallery-row" style={`height: ${row[0].rowHeight}px`}>
+                {row.map((photo) => (
+                    <div
+                        class="gallery-img-container"
+                        style={`flex: ${photo.flex}`}
+                    >
+                        <img
+                            src={photo.src}
+                            alt={photo.alt}
+                            class="gallery-img"
+                        />
+                    </div>
+                ))}
+            </div>
+        ))
+    }
+</div>

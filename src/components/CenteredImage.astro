@@ -1,0 +1,15 @@
+---
+import { Image } from 'astro:assets';
+
+interface Props {
+    src: ImageMetadata;
+    alt: string;
+    width?: number;
+}
+
+const { src, alt, width = 720 } = Astro.props;
+---
+
+<div style="text-align: center;">
+    <Image src={src} alt={alt} width={width} />
+</div>
