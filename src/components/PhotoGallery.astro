@@ -170,13 +170,13 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
                         class="gallery-img-container"
                         style={`flex: ${photo.flex}`}
                     >
-                        <Image
-                            src={photo.image}
+                        <img
+                            src={photo.image.src}
                             alt={photo.alt}
                             width={Math.round(photo.flex * CONTAINER_WIDTH)}
                             height={Math.round(row[0].rowHeight)}
-                            format="webp"
                             style="width: 100%; height: 100%; object-fit: cover;"
+                            loading="lazy"
                         />
                     </div>
                 ))}
