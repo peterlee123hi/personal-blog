@@ -1,150 +1,110 @@
 ---
 import { CONTAINER_WIDTH } from "../consts";
-import LittleIsland from "../assets/little-island.jpg?url";
-import Chicago from "../assets/chicago.jpg?url";
-import Grove from "../assets/grove.jpg?url";
-import Pier from "../assets/pier.jpg?url";
-import EvolutionOfMan from "../assets/evolution-of-man.jpg?url";
-import Tianjin from "../assets/tianjin.jpg?url";
-import Cancun from "../assets/cancun.jpg?url";
-import Pacific from "../assets/pacific.jpg?url";
-import Bridge from "../assets/bridge.jpg?url";
-import MountainView from "../assets/mountain-view.jpg?url";
-import Roman from "../assets/roman.jpg?url";
-import Neighbor from "../assets/neighbor.jpg?url";
-import OceanView from "../assets/ocean-view.jpg?url";
-import Arizona from "../assets/arizona.jpg?url";
-import Wedding from "../assets/wedding.jpg?url";
-import Ying from "../assets/ying.jpg?url";
-import Stanford from "../assets/stanford.jpg?url";
-import Guitar from "../assets/guitar.jpg?url";
-import Google from "../assets/google.jpg?url";
-import Matcha from "../assets/matcha.jpg?url";
+import { Image } from "astro:assets";
+import LittleIsland from "../assets/little-island.jpg";
+import Chicago from "../assets/chicago.jpg";
+import Grove from "../assets/grove.jpg";
+import Pier from "../assets/pier.jpg";
+import EvolutionOfMan from "../assets/evolution-of-man.jpg";
+import Tianjin from "../assets/tianjin.jpg";
+import Cancun from "../assets/cancun.jpg";
+import Pacific from "../assets/pacific.jpg";
+import Bridge from "../assets/bridge.jpg";
+import MountainView from "../assets/mountain-view.jpg";
+import Roman from "../assets/roman.jpg";
+import Neighbor from "../assets/neighbor.jpg";
+import OceanView from "../assets/ocean-view.jpg";
+import Arizona from "../assets/arizona.jpg";
+import Wedding from "../assets/wedding.jpg";
+import Ying from "../assets/ying.jpg";
+import Stanford from "../assets/stanford.jpg";
+import Guitar from "../assets/guitar.jpg";
+import Google from "../assets/google.jpg";
+import Matcha from "../assets/matcha.jpg";
 
 const photos = [
     {
-        src: LittleIsland,
-        width: 4080,
-        height: 3072,
+        image: LittleIsland,
         alt: "Little Island",
     },
     {
-        src: Chicago,
-        width: 4080,
-        height: 3072,
+        image: Chicago,
         alt: "Chicago",
     },
     {
-        src: Grove,
-        width: 4080,
-        height: 3072,
+        image: Grove,
         alt: "Grove",
     },
     {
-        src: Pier,
-        width: 1920,
-        height: 924,
+        image: Pier,
         alt: "Pier",
     },
     {
-        src: EvolutionOfMan,
-        width: 3072,
-        height: 4080,
+        image: EvolutionOfMan,
         alt: "Evolution of Man",
     },
     {
-        src: Tianjin,
-        width: 4080,
-        height: 3072,
+        image: Tianjin,
         alt: "Tianjin",
     },
     {
-        src: Cancun,
-        width: 2040,
-        height: 1536,
+        image: Cancun,
         alt: "Cancun",
     },
     {
-        src: Pacific,
-        width: 1024,
-        height: 768,
+        image: Pacific,
         alt: "Pacific",
     },
     {
-        src: Bridge,
-        width: 4080,
-        height: 3072,
+        image: Bridge,
         alt: "Bridge",
     },
     {
-        src: MountainView,
-        width: 4080,
-        height: 3072,
+        image: MountainView,
         alt: "Mountain View",
     },
     {
-        src: Roman,
-        width: 3072,
-        height: 4080,
+        image: Roman,
         alt: "Roman",
     },
     {
-        src: Neighbor,
-        width: 3072,
-        height: 4080,
+        image: Neighbor,
         alt: "Neighbor",
     },
     {
-        src: OceanView,
-        width: 4080,
-        height: 3072,
+        image: OceanView,
         alt: "Ocean View",
     },
     {
-        src: Arizona,
-        width: 4080,
-        height: 3072,
+        image: Arizona,
         alt: "Arizona",
     },
     {
-        src: Wedding,
-        width: 4080,
-        height: 3072,
+        image: Wedding,
         alt: "Wedding",
     },
     {
-        src: Ying,
-        width: 2048,
-        height: 1536,
+        image: Ying,
         alt: "Ying",
     },
     {
-        src: Stanford,
-        width: 4032,
-        height: 3024,
+        image: Stanford,
         alt: "Stanford",
     },
     {
-        src: Guitar,
-        width: 1080,
-        height: 1920,
+        image: Guitar,
         alt: "Guitar",
     },
     {
-        src: Google,
-        width: 1080,
-        height: 1160,
+        image: Google,
         alt: "Google",
     },
     {
-        src: Matcha,
-        width: 3072,
-        height: 4080,
+        image: Matcha,
         alt: "Matcha",
     },
 ];
 
-// For desktop
 const itemsPerRow = 2;
 const rows = [];
 
@@ -152,13 +112,13 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
     const row = photos.slice(i, i + itemsPerRow);
 
     const totalAspectRatio = row.reduce(
-        (sum, p) => sum + p.width / p.height,
+        (sum, p) => sum + p.image.width / p.image.height,
         0,
     );
 
     const layout = row.map((p) => ({
         ...p,
-        flex: p.width / p.height / totalAspectRatio,
+        flex: p.image.width / p.image.height / totalAspectRatio,
         rowHeight: CONTAINER_WIDTH / totalAspectRatio,
     }));
 
@@ -184,17 +144,10 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
         overflow: hidden;
     }
 
-    .gallery-img {
-        width: 100%;
-        height: 100%;
-        display: block;
-        object-fit: cover;
-    }
-
     @media (max-width: 800px) {
         .gallery-row {
             flex-direction: column;
-            height: auto !important; /* Ensure height is removed */
+            height: auto !important;
         }
 
         .gallery-img-container {
@@ -202,10 +155,8 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
             flex: none !important;
         }
 
-        .gallery-img {
-            width: 100%;
-            height: auto;
-            object-fit: contain;
+        .gallery-img-container img {
+            object-fit: contain !important;
         }
     }
 </style>
@@ -219,10 +170,14 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
                         class="gallery-img-container"
                         style={`flex: ${photo.flex}`}
                     >
-                        <img
-                            src={photo.src}
+                        <Image
+                            src={photo.image}
                             alt={photo.alt}
+                            width={Math.round(photo.flex * CONTAINER_WIDTH)}
+                            height={Math.round(row[0].rowHeight)}
+                            format="webp"
                             class="gallery-img"
+                            style="width: 100%; height: 100%; object-fit: cover;"
                         />
                     </div>
                 ))}
