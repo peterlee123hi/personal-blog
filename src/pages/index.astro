@@ -7,69 +7,64 @@ import PhotoGallery from "../components/PhotoGallery.astro";
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			.video {
-				width: 640px;
-				height: 360px;
-				margin-bottom: 1rem;
-				border: 0;
-			}
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      .video {
+        width: 640px;
+        height: 360px;
+        margin-bottom: 1rem;
+        border: 0;
+      }
 
-			@media (max-width: 700px) {
-				.video {
-					width: 100%;
-					height: calc(
-						100vw * 9 / 16
-					); /* maintain 16:9 ratio based on viewport width */
-				}
-			}
-		</style>
-	</head>
-	<body>
-		<main>
-			<NavBar />
-			<p>
-				🌴 time spent in nature, short walks on the beach, drifting with
-				the tides
-				<br />
-				🎓 studied at uc berkeley '19, working at google, aspiring founder
-				in mlops
-				<br />
-				🏛️ centrist, normcore, rational
-			</p>
-			<p>
-				<a
-					href="https://linkedin.com/in/peterlee123456/"
-					target="_blank">LinkedIn</a
-				>
-				<br />
-				<a href="https://github.com/peterlee123hi/" target="_blank"
-					>GitHub</a
-				>
-				<br />
-				<a href="https://facebook.com/peterlee123hi/" target="_blank"
-					>Facebook</a
-				>
-				<br />
-				<a href="https://instagram.com/peterlee123hi/" target="_blank"
-					>Instagram</a
-				>
-				<br />
-				<a
-					href="https://discordapp.com/users/peterlee123hi/"
-					target="_blank">Discord</a
-				>
-				<br />
-				<a href="mailto:peterlee.code@gmail.com">Email</a>
-			</p>
-			<iframe
-				class="video"
-				src="https://www.youtube.com/embed/kdmtKm5MoH8"
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-				allowfullscreen></iframe>
-			<PhotoGallery />
-		</main>
-	</body>
+      @media (max-width: 700px) {
+        .video {
+          width: 100%;
+          height: calc(
+            100vw * 9 / 16
+          ); /* maintain 16:9 ratio based on viewport width */
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <NavBar />
+      <p>
+        🌴 time spent in nature, short walks on the beach, drifting with the
+        tides
+        <br />
+        🎓 studied at uc berkeley '19, working at google, aspiring founder in mlops
+        <br />
+        🏛️ centrist, normcore, rational
+      </p>
+      <p>
+        <a href="https://linkedin.com/in/peterlee123456/" target="_blank"
+          >LinkedIn</a
+        >
+        <br />
+        <a href="https://github.com/peterlee123hi/" target="_blank">GitHub</a>
+        <br />
+        <a href="https://facebook.com/peterlee123hi/" target="_blank"
+          >Facebook</a
+        >
+        <br />
+        <a href="https://instagram.com/peterlee123hi/" target="_blank"
+          >Instagram</a
+        >
+        <br />
+        <a href="https://discordapp.com/users/peterlee123hi/" target="_blank"
+          >Discord</a
+        >
+        <br />
+        <a href="mailto:peterlee.code@gmail.com">Email</a>
+      </p>
+      <iframe
+        class="video"
+        src="https://www.youtube.com/embed/kdmtKm5MoH8"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+      <PhotoGallery />
+    </main>
+  </body>
 </html>

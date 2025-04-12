@@ -6,36 +6,36 @@ import FormattedDate from "../../components/FormattedDate.astro";
 import NavBar from "../../components/NavBar.astro";
 
 const posts = (await getCollection("thoughts")).sort(
-	(a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
 ---
 
 <!doctype html>
 <html lang="en">
-	<head>
-		<BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-		<style>
-			.description {
-				margin: 0;
-			}
-		</style>
-	</head>
-	<body>
-		<main>
-			<NavBar />
-			<section>
-				{
-					posts.map((post) => (
-						<div>
-							<a href={`/thoughts/${post.id}/`}>
-								<h4>{post.data.title}</h4>
-								<p class="description">{post.data.description}</p>
-								<FormattedDate date={post.data.pubDate} />
-							</a>
-						</div>
-					))
-				}
-			</section>
-		</main>
-	</body>
+  <head>
+    <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
+    <style>
+      .description {
+        margin: 0;
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <NavBar />
+      <section>
+        {
+          posts.map((post) => (
+            <div>
+              <a href={`/thoughts/${post.id}/`}>
+                <h4>{post.data.title}</h4>
+                <p class="description">{post.data.description}</p>
+                <FormattedDate date={post.data.pubDate} />
+              </a>
+            </div>
+          ))
+        }
+      </section>
+    </main>
+  </body>
 </html>
