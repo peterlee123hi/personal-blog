@@ -2,6 +2,7 @@
 import { SITE_TITLE, SITE_DESCRIPTION } from "../consts";
 import BaseHead from "../components/BaseHead.astro";
 import NavBar from "../components/NavBar.astro";
+import VideoGallery from "../components/VideoGallery.astro";
 import PhotoGallery from "../components/PhotoGallery.astro";
 ---
 
@@ -9,23 +10,6 @@ import PhotoGallery from "../components/PhotoGallery.astro";
 <html lang="en">
   <head>
     <BaseHead title={SITE_TITLE} description={SITE_DESCRIPTION} />
-    <style>
-      .video {
-        width: 640px;
-        height: 360px;
-        margin-bottom: 1rem;
-        border: 0;
-      }
-
-      @media (max-width: 700px) {
-        .video {
-          width: 100%;
-          height: calc(
-            100vw * 9 / 16
-          ); /* maintain 16:9 ratio based on viewport width */
-        }
-      }
-    </style>
   </head>
   <body>
     <main>
@@ -59,11 +43,7 @@ import PhotoGallery from "../components/PhotoGallery.astro";
         <br />
         <a href="mailto:peterlee.code@gmail.com">Email</a>
       </p>
-      <iframe
-        class="video"
-        src="https://www.youtube.com/embed/kdmtKm5MoH8"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen></iframe>
+      <VideoGallery />
       <PhotoGallery />
     </main>
   </body>
