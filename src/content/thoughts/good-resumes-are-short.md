@@ -11,7 +11,7 @@ Here's an example of resumes from least impressive to most:
 - MIT, Quant @ Jane Street, Hardcore 1st Author ML Research Paper, Undergrad TA for Optimization Theory
 - Mark Zuckerberg: CEO and Co-founder of Facebook
 
-In tech, these are the crowning achievements. Of course, there are lesser counterparts for each one that are still valuable. But if you have a few strong achievements, it's better to remove the filler.
+In tech, these are the crowning achievements. There are lesser counterparts for each one that are still valuable. But if you have a few strong achievements, it's better to remove the filler.
 - IMO or IOI or Putnam or ACM-ICPC World Finals
 - Publishing a 1st author research paper at a tier 1 conference (NeurIPS, ICML, ICLR, CVPR)
 - Building an open-source project with real traction (AI/ML/data or highly technical domain)
