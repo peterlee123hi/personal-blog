@@ -23,4 +23,4 @@ In tech, these are the crowning achievements. There are lesser counterparts for 
 
 This is also a somewhat backwards view of looking at accomplishment. At the end of the day, we should seek to do truly meaningful things, not just to look impressive on paper, but because they're worth doing and contribute something real to the world.
 
-(also note that I sadly don't have any of the crowning achievements yet 🥲)
+(also note that I don't have any of the crowning achievements yet 🥲)
