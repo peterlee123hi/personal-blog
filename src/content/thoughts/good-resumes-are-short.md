@@ -9,7 +9,7 @@ It's a common misconception that resumes are judged like a high score screen, wh
 Here's an example of resumes from least impressive to most:
 - Undergrad at T25, Hackathon Organizer, UPE Officer, 12 Classes Listed, Half-baked Web App, 3 Student Orgs
 - MIT, Quant @ Jane Street, Hardcore 1st Author ML Research Paper, Undergrad TA for Optimization Theory
-- Mark Zuckerberg: CEO and Co-founder of Facebook
+- Andy Byron: CEO of Astronomer
 
 In tech, these are the crowning achievements. There are lesser counterparts for each one that are still valuable. But if you have a few strong achievements, it's better to remove the filler.
 - IMO or IOI or Putnam or ACM-ICPC World Finals
