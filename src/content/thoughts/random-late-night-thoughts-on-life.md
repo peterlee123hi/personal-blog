@@ -4,7 +4,7 @@ description: 'A few thoughts from my notes on life'
 pubDate: 'Aug 14, 2025'
 ---
 
-Here's a few late night musings on life that I might regret posting later:
+Here's some late nights thoughts on life:
 - Hardship creates strong people, easy life creates weak people
 - Overthinking and perfection are *highly* overrated
 - Idiots admire complexity, smart people admire simplicity 
@@ -22,30 +22,30 @@ Here's a few late night musings on life that I might regret posting later:
 - Unless you have a big family or *really* interesting hobbies, retirement is somewhat of a scam
 - OMAD is the best diet, rowing+biking is the best natural full body workout
 - Plan your life based on the average case scenario and best case scenario. Not just the best case scenario
-- Trauma bonding and love bombing are real and it's crazy how late we came up with those labels
+- Trauma bonding and love bombing are bad but mild trauma bonding is how most people bond
 - Entitlement, victimization, and self-obsession are way too common these days
 - Sometimes, a whole field can't be innovated (social media startup graveyard, reinforcement learning is dead)
 - Revealing romantic feelings is a one-way door with only 2 outcomes
 - A person's living space says a *lot* about who they are
-- We all do things to benefit ourselves, but let's try to not act or glorify being selfish
+- We all do things to benefit ourselves and society, but we shouldn't glorify greed or selfishness
 - Social skills and financial literacy are the most important topics to learn outside of school
 - Realism over idealism
 - IQ and EQ can pretty much summarize who someone is
 - Don't trust someone who doesn't have a todo list
-- Humble bragging (even someone else or goals like OpenAI or Forbes30u30), idealism, being quirky for the sake of being quirky, and always complaining are way too common in tech culture
+- Humble bragging (even someone else or future goals like OpenAI or Forbes30u30), idealism, being quirky for the sake of being quirky, and always complaining are way too common in tech culture
 - When it comes to friendships and relationships, the natural way is the best way. No need to overthink, listen to your gut
 - Markets are everywhere and it's exhausting (jobs, dating, housing)
 - You can get decently good at anything with enough practice
 - Nature is timeless when it comes to interior design. Japanese architecture had amazing longevity
 - Life lesson learned from call of duty, the game is best enjoyed when not obsessing over your KD
-- For some reason, when people start a family and move to the suburbs, they tend to become the most boring people imaginable
+- For some reason, when people start a family and move to the suburbs, they tend to become the most boring people imaginable and enjoy talking about news, real estate and stocks
 - No matter how smart you are, there is only so much you can deduce from limited knowledge. There is no replacement for experience
 - Overly pedantic or bureacratic people at work are the worst
 - Life is filled with beautiful and highly intellectual things, being alive is a gift even if it doesn't always feel like it
 - If you have FOMO, just know that things sometimes sound better than they actually were
 - Once you overuse the terms "growth", "impact", and "alignment" - you know you've officially become a corp slave. Maybe it's time to take some PTO
-- Rising up too high in the management side of the corporate ladder especially in big tech doesn't exactly signal good things about you
+- Rising up too high on the management side of the corporate ladder especially in big tech doesn't exactly signal good things about you
 - Do your best, try to detach from the outcome
-- Don't be too contrarian or conformist, exercise critical thought
+- Don't be contrarian or conformist for the sake of it, exercise critical thought
 - Being likeable is very important in all aspects of life
 - Don't do too much fake work and trick yourself into thinking you're doing real work
