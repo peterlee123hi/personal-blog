@@ -4,7 +4,7 @@ description: 'A few thoughts from my notes on life'
 pubDate: 'Aug 14, 2025'
 ---
 
-Here's some late nights thoughts on life:
+Here are some late nights thoughts on life:
 - Hardship creates strong people, easy life creates weak people
 - Overthinking and perfection are *highly* overrated
 - Idiots admire complexity, smart people admire simplicity 
