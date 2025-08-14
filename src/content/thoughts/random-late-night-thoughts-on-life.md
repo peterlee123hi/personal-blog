@@ -7,7 +7,7 @@ pubDate: 'Aug 14, 2025'
 Here are some late nights thoughts on life:
 - Hardship creates strong people, easy life creates weak people
 - Overthinking and perfection are *highly* overrated
-- Idiots admire complexity, smart people admire simplicity 
+- Admire simplicity over complexity
 - Authenticity and chill are the best personality traits
 - Sense of purpose and sense of community are key to happiness
 - You have to be able to navigate ambiguity and apply your intelligence in non-obvious ways. Seeing incredibly academically smart people be so incredibly dumb in non-academic ways is one of life's greatest mysteries to me.
