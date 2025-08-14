@@ -1,5 +1,5 @@
 ---
-title: 'Random Late Night Thoughts'
+title: 'Random Late Night Thoughts on Life'
 description: 'A few thoughts from my notes on life'
 pubDate: 'Aug 14, 2025'
 ---
