@@ -21,6 +21,7 @@ Here are some late nights thoughts on life:
 - Stay in school until you have things figured out if you can afford it (med, law, mba, phd)
 - Unless you have a big family or *really* interesting hobbies, retirement is somewhat of a scam
 - OMAD is the best diet, rowing+biking is the best natural full body workout
+- Chase is the best bank, Delta is the best US airline, Amex has the best credit cards
 - Plan your life based on the average case scenario and best case scenario. Not just the best case scenario
 - Trauma bonding and love bombing are bad but mild trauma bonding is how most people bond
 - Entitlement, victimization, and self-obsession are way too common these days
