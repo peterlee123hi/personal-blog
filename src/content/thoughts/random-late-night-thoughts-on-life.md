@@ -4,7 +4,7 @@ description: 'A few thoughts from my notes on life'
 pubDate: 'Aug 14, 2025'
 ---
 
-Here are some late nights thoughts on life:
+Here are some of my late nights thoughts on life:
 - Hardship creates strong people, easy life creates weak people
 - Overthinking and perfection are *highly* overrated
 - Admire simplicity over complexity
@@ -51,3 +51,4 @@ Here are some late nights thoughts on life:
 - Being likeable is very important in all aspects of life
 - Don't do too much fake work and trick yourself into thinking you're doing real work
 - Don't focus on hype, tech has gone through so many hype cycles (robotics, AR/VR, self-driving cars, crypto, quantum, 3D printing, nanotech). The overall hype has only been real a few times (drones, AI, cloud, mobile). There's tons of problems to work on outside of hype
+- Food tastes better when you don't know the exact ingredients and recipe. Things in general are better when there is still a little mystery and novelty
