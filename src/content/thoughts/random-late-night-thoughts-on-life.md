@@ -50,5 +50,5 @@ Here are some of my late nights thoughts on life:
 - Don't be contrarian or conformist for the sake of it, exercise critical thought
 - Being likeable is very important in all aspects of life
 - Don't do too much fake work and trick yourself into thinking you're doing real work
-- Don't focus on hype, tech has gone through so many hype cycles (robotics, AR/VR, self-driving cars, crypto, quantum, 3D printing, nanotech). The overall hype has only been real a few times (drones, AI, cloud, mobile). There's tons of problems to work on outside of hype
+- Don't focus on hype, tech has gone through so many hype cycles (robotics, AR/VR, self-driving cars, crypto, quantum, 3D printing, nanotech). The overall hype has only been real a few times (drones, AI, cloud, mobile, telehealth, fintech). There's tons of problems to work on outside of hype
 - Food tastes better when you don't know the exact ingredients and recipe. Things in general are better when there is still a little mystery and novelty
