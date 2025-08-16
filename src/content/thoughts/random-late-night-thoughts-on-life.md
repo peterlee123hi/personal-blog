@@ -4,7 +4,6 @@ description: 'A few thoughts from my notes on life'
 pubDate: 'Aug 14, 2025'
 ---
 
-Here are some of my late nights thoughts on life:
 - Hardship creates strong people, easy life creates weak people
 - Overthinking and perfection are *highly* overrated
 - Admire simplicity over complexity
@@ -29,7 +28,7 @@ Here are some of my late nights thoughts on life:
 - Revealing romantic feelings is a one-way door with only 2 outcomes
 - A person's living space says a *lot* about who they are
 - We all do things to benefit ourselves and society, but we shouldn't glorify greed or selfishness
-- Social skills and financial literacy are the most important topics to learn outside of school
+- Social skills, financial literacy, personal care, and fitness are the most important topics to learn outside of school
 - Realism over idealism
 - IQ and EQ can pretty much summarize who someone is
 - Don't trust someone who doesn't have a todo list
