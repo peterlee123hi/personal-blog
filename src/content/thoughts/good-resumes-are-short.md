@@ -20,6 +20,7 @@ In tech, these are the crowning achievements. There are lesser counterparts for 
 - Reaching staff+ at FAANG or unicorn startup (IC/management)
 - Working at Jane Street, DeepMind, OpenAI
 - Getting in very early at a rocketship startup
+- Becoming a PI at a T25 university
 
 This is also a somewhat backwards view of looking at accomplishment. At the end of the day, we should seek to do truly meaningful things, not just to look impressive on paper, but because they're worth doing and contribute something real to the world.
 
