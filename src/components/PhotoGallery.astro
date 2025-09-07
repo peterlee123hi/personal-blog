@@ -1,4 +1,5 @@
 ---
+import { Image } from "astro:assets";
 import { CONTAINER_WIDTH } from "../consts";
 import LittleIsland from "../assets/little-island.jpg";
 import Chicago from "../assets/chicago.jpg";
@@ -196,8 +197,9 @@ for (let i = 0; i < photos.length; i += itemsPerRow) {
       <div class="gallery-row" style={`height: ${row[0].rowHeight}px`}>
         {row.map((photo) => (
           <div class="gallery-container" style={`flex: ${photo.flex}`}>
-            <img
-              src={photo.image.src}
+            <Image
+              src={photo.image}
+              quality="max"
               alt={photo.alt}
               width={Math.round(photo.flex * CONTAINER_WIDTH)}
               height={Math.round(row[0].rowHeight)}
