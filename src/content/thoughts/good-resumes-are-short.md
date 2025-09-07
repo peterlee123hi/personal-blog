@@ -16,9 +16,9 @@ In tech, these are the crowning achievements. There are lesser counterparts for 
 - Publishing meaningful research as a first author at a top conference (NeurIPS, ICML, ICLR, CVPR)
 - Building an open-source project that others actually adopt and contribute to
 - Starting a company that reaches a real user base or solves a tangible problem
-- Pursuing advanced study at a place with strong research culture (Stanford, MIT, Harvard, etc.)
+- Pursuing advanced study at a university with strong research culture
 - Growing into senior/staff roles at major tech companies or high-growth startups
-- Working at research-driven orgs where the frontier is being pushed (DeepMind, OpenAI)
+- Working at research-driven orgs where the frontier is being pushed
 - Joining a startup early and helping it scale into something impactful
 - Leading a research lab or becoming a PI at a strong university
 
