@@ -12,7 +12,7 @@ Here's an example of resumes from least impressive to most:
 - Andy Byron: CEO of Astronomer
 
 In tech, if you're feeling lost or wondering which direction makes sense for you, these are the crowning achievements to aspire to.
-- Excelling in tough academic or competitive settings (e.g. IMO, IOI, Putnam, ACM-ICPC World Finals)
+- Excelling in tough academic or competitive settings (IMO, IOI, Putnam, ACM-ICPC World Finals)
 - Publishing meaningful research as a first author at a top conference (NeurIPS, ICML, ICLR, CVPR)
 - Building an open-source project that others actually adopt and contribute to
 - Starting a company that reaches a real user base or solves a tangible problem
