@@ -11,7 +11,7 @@ Here's an example of resumes from least impressive to most:
 - PhD at T5, First Author Research Paper, TA for Optimization Theory
 - Andy Byron: CEO of Astronomer
 
-In tech, these are the crowning achievements. There are lesser counterparts for each one that are still valuable. But if you have a few strong achievements, it's better to remove the filler.
+In tech, if you're feeling lost or wondering which direction makes sense for you, these are the crowning achievements to aspire to.
 - Excelling in tough academic or competitive settings (e.g. IMO, IOI, Putnam, ACM-ICPC World Finals)
 - Publishing meaningful research as a first author at a top conference (NeurIPS, ICML, ICLR, CVPR)
 - Building an open-source project that others actually adopt and contribute to
@@ -23,5 +23,3 @@ In tech, these are the crowning achievements. There are lesser counterparts for 
 - Leading a research lab or becoming a PI at a strong university
 
 This is also a somewhat backwards view of looking at accomplishment. At the end of the day, we should seek to do truly meaningful things, not just to look impressive on paper, but because they're worth doing and contribute something real to the world.
-
-(also note that I don't have any of the crowning achievements yet 🥲)
