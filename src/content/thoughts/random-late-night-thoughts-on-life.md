@@ -4,16 +4,18 @@ description: 'A few thoughts from my notes on life'
 pubDate: 'Aug 14, 2025'
 ---
 
-- Hardship creates strong people, easy life creates weak people
-- Overthinking and perfection are *highly* overrated
+- Being likeable is very important in all aspects of life
 - Admire simplicity over complexity
 - Authenticity and chill are the best personality traits
+- Do your best, try to detach from the outcome
 - Sense of purpose and sense of community are key to happiness
-- You have to be able to navigate ambiguity and apply your intelligence in non-obvious ways. Seeing incredibly academically smart people be so incredibly dumb in non-academic ways is one of life's greatest mysteries to me.
-- People aren't good at identifying what is "valuable", we tend to overfit on what evokes emotion
+- Life is filled with beautiful and highly intellectual things, being alive is a gift even if it doesn't always feel like it
+- Social skills, financial literacy, personal care, and fitness are the most important topics to learn outside of school
+- Overthinking and perfection are *highly* overrated
+- Revealing romantic feelings is a one-way door with only 2 outcomes
+- A person's living space says a *lot* about who they are
 - There are many ways of saying the same thing, most people will just remember your vibe
 - True success and accomplishments are quiet and concentrated, no need to make noise along the way
-- Don't hate the player, hate the game
 - Finite resources are the source of all conflict
 - Having high skill ceiling hobbies is healthy (chess, lifting, magic the gathering, StarCraft)
 - Body language is truly >50% of communication
@@ -25,10 +27,7 @@ pubDate: 'Aug 14, 2025'
 - Trauma bonding and love bombing are bad but mild trauma bonding is how most people bond
 - Entitlement, victimization, and self-obsession are way too common these days
 - Sometimes, a whole field can't be innovated (social media startup graveyard, reinforcement learning is dead)
-- Revealing romantic feelings is a one-way door with only 2 outcomes
-- A person's living space says a *lot* about who they are
 - We all do things to benefit ourselves and society, but we shouldn't glorify greed or selfishness
-- Social skills, financial literacy, personal care, and fitness are the most important topics to learn outside of school
 - Realism over idealism
 - IQ and EQ can pretty much summarize who someone is
 - Don't trust someone who doesn't have a todo list
@@ -41,13 +40,13 @@ pubDate: 'Aug 14, 2025'
 - For some reason, when people start a family and move to the suburbs, they tend to become the most boring people imaginable and enjoy talking about news, real estate and stocks
 - No matter how smart you are, there is only so much you can deduce from limited knowledge. There is no replacement for experience
 - Overly pedantic or bureacratic people at work are the worst
-- Life is filled with beautiful and highly intellectual things, being alive is a gift even if it doesn't always feel like it
 - If you have FOMO, just know that things sometimes sound better than they actually were
 - Once you overuse the terms "growth", "impact", and "alignment" - you know you've officially become a corp slave. Maybe it's time to take some PTO
 - Rising up too high on the management side of the corporate ladder especially in big tech doesn't exactly signal good things about you
-- Do your best, try to detach from the outcome
 - Don't be contrarian or conformist for the sake of it, exercise critical thought
-- Being likeable is very important in all aspects of life
 - Don't do too much fake work and trick yourself into thinking you're doing real work
 - Don't focus on hype, tech has gone through so many hype cycles (robotics, AR/VR, self-driving cars, crypto, quantum, 3D printing, nanotech). The overall hype has only been real a few times (drones, AI, cloud, mobile, telehealth, fintech). There's tons of problems to work on outside of hype
 - Food tastes better when you don't know the exact ingredients and recipe. Things in general are better when there is still a little mystery and novelty
+- Hardship creates strong people, easy life creates weak people
+- People aren't good at identifying what is "valuable", we tend to overfit on what evokes emotion
+- You have to be able to navigate ambiguity and apply your intelligence in non-obvious ways. Seeing incredibly academically smart people be so incredibly dumb in non-academic ways is one of life's greatest mysteries to me.

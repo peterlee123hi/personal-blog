@@ -8,19 +8,19 @@ It's a common misconception that resumes are judged like a high score screen, wh
 
 Here's an example of resumes from least impressive to most:
 - Undergrad at T25, Hackathon Organizer, UPE Officer, 12 Classes Listed, Half-baked Web App, 3 Student Orgs
-- MIT, Quant @ Jane Street, Hardcore 1st Author ML Research Paper, Undergrad TA for Optimization Theory
+- PhD at T5, First Author Research Paper, TA for Optimization Theory
 - Andy Byron: CEO of Astronomer
 
 In tech, these are the crowning achievements. There are lesser counterparts for each one that are still valuable. But if you have a few strong achievements, it's better to remove the filler.
-- IMO or IOI or Putnam or ACM-ICPC World Finals
-- Publishing a 1st author research paper at a tier 1 conference (NeurIPS, ICML, ICLR, CVPR)
-- Building an open-source project with real traction (AI/ML/data or highly technical domain)
-- Founding a tech startup that has at least reached moderate levels of success
-- Attending Stanford, Harvard, MIT BS or PhD
-- Reaching staff+ at FAANG or unicorn startup (IC/management)
-- Working at Jane Street, DeepMind, OpenAI
-- Getting in very early at a rocketship startup
-- Becoming a PI at a T25 university
+- Excelling in tough academic or competitive settings (e.g. IMO, IOI, Putnam, ACM-ICPC World Finals)
+- Publishing meaningful research as a first author at a top conference (NeurIPS, ICML, ICLR, CVPR)
+- Building an open-source project that others actually adopt and contribute to
+- Starting a company that reaches a real user base or solves a tangible problem
+- Pursuing advanced study at a place with strong research culture (Stanford, MIT, Harvard, etc.)
+- Growing into senior/staff roles at major tech companies or high-growth startups
+- Working at research-driven orgs where the frontier is being pushed (DeepMind, OpenAI)
+- Joining a startup early and helping it scale into something impactful
+- Leading a research lab or becoming a PI at a strong university
 
 This is also a somewhat backwards view of looking at accomplishment. At the end of the day, we should seek to do truly meaningful things, not just to look impressive on paper, but because they're worth doing and contribute something real to the world.
 
