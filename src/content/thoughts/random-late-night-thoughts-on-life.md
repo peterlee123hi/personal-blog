@@ -24,7 +24,7 @@ pubDate: 'Aug 14, 2025'
 - OMAD is the best diet, rowing+biking is the best natural full body workout
 - Chase is the best bank, Delta is the best US airline, Amex has the best credit cards
 - Plan your life based on the average case scenario and best case scenario. Not just the best case scenario
-- Trauma bonding and love bombing are bad but mild trauma bonding is how most people bond
+- Love is Not Blind, it's trauma bonded
 - Entitlement, victimization, and self-obsession are way too common these days
 - Sometimes, a whole field can't be innovated (social media startup graveyard, reinforcement learning is dead)
 - We all do things to benefit ourselves and society, but we shouldn't glorify greed or selfishness
