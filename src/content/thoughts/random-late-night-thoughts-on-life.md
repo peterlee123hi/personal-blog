@@ -46,6 +46,6 @@ pubDate: 'Aug 14, 2025'
 - Don't be contrarian or conformist for the sake of it, exercise critical thought
 - Don't do too much fake work and trick yourself into thinking you're doing real work
 - Don't focus on hype, tech has gone through so many hype cycles (robotics, AR/VR, self-driving cars, crypto, quantum, 3D printing, nanotech). The overall hype has only been real a few times (drones, AI, cloud, mobile, telehealth, fintech). There's tons of problems to work on outside of hype
-- Food tastes better when you don't know the exact ingredients and recipe. Things in general are better when there is still a little mystery and novelty
+- Food tastes better when you don't know the exact ingredients and recipe. Things in general are better when there is mystery and novelty
 - Hardship creates strong people, easy life creates weak people
 - You have to be able to navigate ambiguity and apply your intelligence in non-obvious ways. Seeing incredibly academically smart people be so incredibly dumb in non-academic ways is one of life's greatest mysteries to me.
