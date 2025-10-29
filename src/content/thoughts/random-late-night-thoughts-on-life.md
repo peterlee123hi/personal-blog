@@ -31,7 +31,7 @@ pubDate: 'Aug 14, 2025'
 - Realism over idealism
 - IQ and EQ can pretty much summarize who someone is
 - Don't trust someone who doesn't have a todo list
-- Humble bragging (even someone else or future goals like OpenAI or Forbes30u30), idealism, being quirky for the sake of being quirky, and always complaining are way too common in tech culture
+- Humble bragging, always complaining, comparing yourself/others is too common in tech
 - When it comes to friendships and relationships, the natural way is the best way. No need to overthink, listen to your gut
 - Markets are everywhere and it's exhausting (jobs, dating, housing)
 - You can get decently good at anything with enough practice
