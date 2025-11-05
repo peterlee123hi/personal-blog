@@ -33,6 +33,7 @@ pubDate: 'Aug 14, 2025'
 - Don't trust someone who doesn't have a todo list
 - Humble bragging, always complaining, comparing yourself/others is too common in tech
 - When it comes to friendships and relationships, the natural way is the best way. No need to overthink, listen to your gut
+- Harry Potter Houses is a really good sorting of personalities (Gryffindor, **Ravenclaw**, Slytherin, Hufflepuff)
 - Markets are everywhere and it's exhausting (jobs, dating, housing)
 - You can get decently good at anything with enough practice
 - Nature is timeless when it comes to interior design. Japanese architecture had amazing longevity
